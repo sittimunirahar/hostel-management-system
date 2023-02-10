@@ -1,0 +1,80 @@
+#payloadMeterDiv, #payloadMeterDiv2{
+	display:none
+}
+
+#tb1, #db{
+	border:0px solid green;
+	border: none;
+	border-right: none;
+}
+
+#report td{
+	padding:1px 1px;
+}
+
+#wannascroll{
+	height:auto;
+	overflow-y:none;
+	
+}
+
+#buttonspace{
+	display:none;
+	visibility:hidden;
+}
+
+#printbut{
+	display:none;
+	visibility:hidden;
+}
+
+/* untuk yg ade tab*/
+#wannascroll2{
+	height:auto;
+	overflow-y:none;
+}
+
+#sideleft{
+	display:none;
+}
+
+
+#feehref{
+	display:none;
+}
+
+
+.content, .wrap{
+	width:100%;
+	text-align:center;
+}
+
+.nav{
+	display:none;
+}
+
+
+.tabledata2{
+	display:block;
+}
+
+.headerwrap{
+	display:none;
+}
+
+/* Print Styles */
+
+@page {
+  size: A4;
+   margin: 10mm 15mm 10mm 25mm;
+   text-align:center;
+}
+@media print {
+  html, body {
+    width: 240mm;
+    height: 297mm;
+  }
+  /* ... the rest of the rules ... */
+}
+
+

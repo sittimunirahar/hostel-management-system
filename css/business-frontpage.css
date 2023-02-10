@@ -1,0 +1,610 @@
+#db td{
+	padding:8px 10px;
+}
+
+#report tr{
+	border:1px solid black;
+	
+}
+
+#report th{padding:5px 5px;
+	border:1px solid black;
+	background-color:#eee;
+	color:black;
+	text-transform: uppercase;
+	color:#267871;
+
+}
+
+#report{
+	width:100%
+}
+
+#report td{
+	padding:2px 2px;
+	border:1px solid black;
+}
+
+#hidden{
+	display:none
+}
+
+#chartContainer, #chartContainer2, #chartContainer3, #chartContainer4{
+	background-color: #ecf9f2;
+}
+
+.tablereport td{
+	padding:6px 6px;
+	font-size: 12px;
+	border-bottom:1px solid #ddd;
+	background-color: #ecf9f2;
+}
+
+.tablereport th{padding:6px 6px;font-size: 14px;}
+
+.tablereport td:hover{
+	cursor:pointer;
+	background-color: #eee;
+}
+
+.tablereport a{
+	color:black;
+}
+
+.button {
+    /*background-color: #11999e;*/
+    border: none;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px 10px 30px;
+    cursor: pointer;
+	width:20%;
+	background: #02AAB0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border-radius:3px;
+	box-shadow: 2px 2px 2px #bbb;
+}
+
+a:hover{
+    /*background-color: yellow;*/
+    color: #e4f9f5 !important;
+
+}
+
+.button2 {
+    background-color: #30e3ca;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width:25%;
+	border-radius:5px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.button3 {
+    background-color: #29A19C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width:60.5%;
+	border-radius:5px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+#menu{
+	width:100%;
+	height:100%;
+	text-align:center;
+	background-color:#F2FFFC;
+	margin-top: 5%;
+
+}
+
+#menu2{
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+#menu1{
+	background-color: #F2FFFC;
+
+}
+
+
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	font-size: 12px;
+	margin:auto;
+	min-width:600px;
+	max-width:2000px;
+	
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+#typical th{
+	width:20%;
+	padding-left:12px;
+	padding-right:12px;
+	padding: 5px 5px;
+	color:black;
+	text-transform: uppercase;
+	color:#267871;
+}
+
+#typical tr{
+	margin:20px;
+}
+
+.panel-body{
+	/*background-color: #ecf9f2;*/
+	/*border:1px solid #267871;*/
+	/*border-radius:7px;*/
+}
+
+.panel-header{
+	background: #02AAB0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#typical td{
+	/*border-bottom: 1px solid #ccc;
+	background-color:#E2FFE9;*/
+	padding:3px;
+	padding-left:13px;
+
+}
+
+.tablestaff th {
+	border-bottom: 1px solid #ccc;
+	padding:10px;
+	width:20%
+}
+
+.tablestaff td{
+	border: 1px solid #ccc;
+	padding:10px;
+	background-color: #ecf9f2;
+}
+
+.filterrep tr td{ padding:3px 3px;}
+
+.ub3{
+	padding-top:10px;
+	padding-bottom:50px;
+	/*background-color: #40514e;*/
+	color:white;
+	font-weight: bold;
+	font-size:15px;
+	background: #136a8a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.ub3 li{
+	padding-top:10px !important;
+}
+
+.small-header{
+	padding-top:2px;
+	padding-bottom:2px;
+	/*border-bottom: 1px solid #29A19C;*/
+	/*background-color: #40514e;*/
+	/*color:white;*/
+	/*font-weight: bold;*/
+	/*font-size:15px;*/
+
+}
+
+
+.table2{
+	padding-bottom:20px;
+}
+
+.table2 td{
+	width:50%;
+	text-align:left;
+	padding:3px;
+}
+
+.table2 th{
+	color:black;
+	background-color: white;
+	
+}
+
+.headerwrap{
+	width: 100%;
+	/*background-color:#248e24;*/
+	height:81px;border-bottom:1px solid #505050;
+	
+}
+.headerwrap2{
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#393E46+1,9dd53a+34 */
+background: #393E46; /* Old browsers */
+background: -moz-linear-gradient(top,  #393E46 1%, #9dd53a 34%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #393E46 1%,#9dd53a 34%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #393E46 1%,#9dd53a 34%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393E46', endColorstr='#9dd53a',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+hr {
+margin-top: 0.3em;
+margin-bottom: 1em;
+border-width: 1px;
+border-color: #bbb }
+
+
+.content {
+		background-color: #F2FFFC;
+		margin: 0 auto;
+		float:right;
+		width: 83%;
+		padding-right:100px;
+		padding-top:15px;
+		}	
+		
+
+.content2 {
+		background-color: #F2FFFC;
+		margin: 0 auto;
+		float:right;
+		width: 94%;
+		padding-right:70px;
+		}	
+		
+
+		
+.tabs{
+		/*background-color: #f4f4f4;*/
+		margin:0 auto;
+		text-align:center;
+		float:right;
+		width: auto;		
+		display:inline-block;
+		/*position:absolute;
+		left:156px;
+		top:115px;*/
+		width: 83%;
+		padding-right:100px;
+		padding-top:15px;
+	
+}
+
+.tabs2{
+		margin:0 auto;
+		text-align:center;
+		float:right;
+		width: auto;		
+		display:inline-block;
+		/*position:absolute;
+		left:156px;
+		top:115px;*/
+		width: 94%;
+		padding-right:100px;
+		padding-top:15px;
+		
+}
+
+.nav-tabs li>a{
+	background: #02AAB0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #00CDAC, #02AAB0);
+	color:white;
+}
+
+.tabsfin{
+		margin:0 auto;
+		text-align:center;
+		float:right;
+		width: auto;		
+		display:inline-block;
+		/*position:absolute;
+		left:156px;
+		top:115px;*/
+		width: 83%;
+		padding-right:100px;
+		padding-top:15px;
+}
+
+.tabsfin ul li a {
+   display:block;
+   width:200px;
+}
+
+
+
+.tabs ul li a {
+   display:block;
+   width:150px;
+}
+
+.menu-hostel{
+	margin-top:50%;
+}
+
+.wrap{
+	width: 100%;
+	height: auto;
+	padding-bottom:0px;
+
+}
+
+#sideleft{
+	/*#ededde*/
+	/*background-color:#267871;*/
+		/*border-radius:0px;*/
+		float:left;
+		width: 15%;
+		text-align:center;
+	    bottom:0px;
+		position: absolute;
+		/*border-right: 1px solid #ccc;*/
+		top:0%;
+		z-index: -1;
+		background: #02AAB0;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #00CDAC, #02AAB0);
+	 	border-radius:0px;
+	 	margin-right:0px;
+	}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    /*text-shadow: 0 0 5px #000;*/
+    /*color: #fff;*/
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+
+
+.nav a {
+  color: #222831;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 8px;
+  text-transform: uppercase;
+
+}
+
+
+.nav .container{
+	/*background-color:#505050;*/
+	/*border-bottom:1px solid #248e24;*/
+	width: auto;
+	/*padding-top:4px;*/
+	padding-bottom:0px;
+
+	}
+
+	
+.nav li {
+  display: inline;
+
+}
+
+.profile{
+	background-color: #ecf9f2;
+	position:relative;display:block;padding:11px 11px; margin-bottom:2px; margin-top:0px; 
+	border-radius:0px;margin-left:2px;margin-right:0px;
+	text-align:left; /* Old browsers */
+	
+	color: black;
+	background: rgb(157,213,58); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.profile:hover{
+	text-decoration:none;
+}
+
+
+
+
+#tablewithout tr{
+	background-color: #ecf9f2;
+}
+
+#tablewithout td:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#tablewithout th{
+	background-color: #267871;
+	text-transform: uppercase;
+}
+
+#tablewithout{
+	width:100%;
+	border-bottom:1px solid black
+}
+
+#tabledata, #tabledata2{
+	border:1px solid #267871;
+}
+
+#tabledata tr:hover{
+	background-color:#eee;
+}
+
+#tabledata2 td:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#tabledata2 tr:hover{
+	background-color:#eee;
+}
+
+
+#tabledata tr{background-color: #ecf9f2;}
+
+#tabledata2 tr{background-color: #ecf9f2;}
+
+#tabledata th{
+	background: #267871;  /* fallback for old browsers */
+	text-transform: uppercase;
+	
+}
+
+#tabledata2 th{
+  
+	background: #267871;
+	text-transform: uppercase;
+}
+
+
+h1{
+	font-weight:;
+	 font-size: 40px;
+}
+
+h3{
+	font-size: 18px;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.fa{
+	margin-right:6px;
+}
+
+.login-form{
+	width:80%;
+}
+
+.login-form td{
+	padding:5px;
+}
+
+
+.finhead1{
+	width: 50%;
+	margin-bottom:10px;
+	float:left;
+}
+
+.finhead2{
+	width: 50%;
+	margin-bottom:10px;
+	float:right;
+}
+
+.border1{
+	border: 1px solid black;
+	
+}
+
+.border1 th{
+	
+	 background-color: #267871;
+	text-transform: uppercase;
+}
+
+.tmain th{
+	text-align:center;
+}
+
+.tmain td:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#handplease{
+	cursor:pointer;
+}
+
+.tmain tr:hover{
+	background-color:#eee;
+}
+
+select:disabled {
+    color: #ccc;
+}
+
+.table tr{
+	background-color: #ecf9f2;
+}
+
+.table{
+	width:75%;
+	border-bottom:0px;
+	border-top:0px;
+}
+
+.tabletyp th{
+	width:15%;
+}
+
+#wannascroll{
+	height:445px;
+	overflow-y:auto;
+	
+}
+
+/* untuk yg ade tab*/
+#wannascroll2{
+	height:433px;
+	overflow-y:auto;
+}
+

@@ -1,0 +1,16 @@
+@media only screen and (max-device-width: 480px) {
+  
+}
+
+@media screen
+ {
+   p.test {font-family:verdana,sans-serif;font-size:14px;}
+ }
+ @media print
+ {
+   p.test {font-family:times,serif;font-size:10px;}
+ }
+ @media screen,print
+ {
+   p.test {font-weight:bold;}
+ }
