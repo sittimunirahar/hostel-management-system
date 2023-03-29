@@ -1,12 +1,12 @@
 # hostel-management-system
 Hostel management system built using vanilla PHP 5, MySQL, Javascript, jQuery, Bootstrap and CSS
 
-Client: Private institution in Malaysia that lease buildings from third party vendors for its students. 
+<b>Client:</b> Private institution in Malaysia that lease buildings from third party vendors for its students. 
 
-Features: Booking system and hostel management overall, reporting dashboard for admin. 
+<b>Features:</b> Booking system and hostel management overall, reporting dashboard for admin. 
 
-Data: Mocked hostel and students data. 
+<b>Data:</b> Mocked hostel and students data. 
 
-Notes:
+<b>Notes:</b>
 - Not entirely cleaned and organized, as this was my final year project back in 2017, won third place overall in FYP project showcase.
 
