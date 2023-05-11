@@ -1,4 +1,4 @@
-# hostel-management-system
+# Hostel Management System
 Hostel management system built using vanilla PHP 5, MySQL, Javascript, jQuery, Bootstrap and CSS
 
 <b>Client:</b> Private institution in Malaysia that rent buildings from third party vendors for its students. 
